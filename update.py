@@ -4,23 +4,23 @@ import os,sys
 
 PERINTAH = """
 cd $HOME
-cd DARK-FB
+cd pesbukpeteng
 mv data $HOME
 mv results $HOME
 cd
-rm -rf DARK-FB
-git clone https://github.com/Dumai-991/DARK-FB
+rm -rf pesbukpeteng
+git clone https://github.com/mr4605/pesbukpeteng
 cd $HOME
-mv data DARK-FB
-mv results DARK-FB
-cd DARK-FB
+mv data pesbukpeteng
+mv results pesbukpeteng
+cd pesbukpeteng
 """
 
-print(" |-->Tunggu Sebentar Sedang Update Script....")
+print(" |-->SABARR MBAHHH....")
 os.system(PERINTAH)
 print(' |')
 print(' |')
-print(' |-->Update Script Sudah Selesai...')
-print(' |-->Silahkan Jalankan Perintah Ini : python main.py')
+print(' |-->Rampunggg...')
+print(' |-->Tulisen Iki Terus Enter : python main.py')
 os.sys.exit()
 
