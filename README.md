@@ -14,13 +14,13 @@ $ pip install mechanize
 
 $ pip install bs4
 
-$ git clone https://github.com/Dumai-991/DARK-FB
+$ git clone https://github.com/mr4605/pesbukpeteng
 
-$ cd DARK-FB
+$ cd pesbukpeteng
 
 $ git pull
 
-$ cd $HOME/DARK-FB
+$ cd $HOME/pesbukpeteng
 
 $ git pull
 
